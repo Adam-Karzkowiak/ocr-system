@@ -1,0 +1,6 @@
+CREATE TABLE graphic(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    content VARCHAR(255),
+    url VARCHAR(255),
+    PRIMARY KEY (id)
+);
