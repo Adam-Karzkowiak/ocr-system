@@ -5,9 +5,11 @@ import java.io.IOException;
 import java.net.URL;
 
 import net.sourceforge.tess4j.*;
+import org.springframework.stereotype.Service;
 
 import javax.imageio.ImageIO;
 
+@Service
 public class OcrService {
 
     public String doOCR(String url) {
